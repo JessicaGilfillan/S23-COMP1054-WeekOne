@@ -1,0 +1,68 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #EC5A96;
+    color: #fff;
+}
+
+/* A Comment in CSS */
+
+
+/*simple text styling */ 
+
+h1 {
+    font-size: 100px; 
+    text-align:center; 
+    color:darkturquoise;
+}
+
+/* set font-size of h2 to 80px */ 
+h2 {
+    font-size: 80px;
+}
+
+/* font-size of p to 40px */
+p {
+    font-size: 40px;
+}
+
+/* layout */ 
+
+main {
+    display: flex; 
+    align-items: center; 
+}
+
+/* animations */
+
+/* the animation code */ 
+
+@keyframes appear {
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%; 
+    }
+}
+
+/* the element to apply the animation to */ 
+
+h1 {
+    animation-name: appear;
+    animation-duration: 5s;
+}
+
+
+
+
+
+
+
+
+
+
+
