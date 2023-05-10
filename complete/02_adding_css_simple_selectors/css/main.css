@@ -1,0 +1,33 @@
+/* element selectors */
+
+h1 {
+    color: #BADA55;
+}
+
+/* class selector */
+
+/*.title {
+    color: #C0FFEE;
+}*/
+
+/* id selector */ 
+
+/*#title {
+    color: purple; 
+}*/
+
+/* pseudo class */
+
+h1:hover {
+    color: green; 
+}
+
+/*combinators */ 
+
+section > h1 {
+    color:darkolivegreen;
+}
+
+
+
+
